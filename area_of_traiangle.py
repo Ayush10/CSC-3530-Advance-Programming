@@ -11,4 +11,5 @@ s = (a + b + c) / 2
 # Calculating Area using formula
 area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
 # area = math.sqrt((s * (s - a) * (s - b) * (s - c)))
+print("THe value of semi-perimeter is : %0.2f" %s)
 print("The area of a triangle is : %0.2f" %area)
