@@ -12,7 +12,7 @@ print()
 while chance >= 0:
     guess = int(input("Enter a number between 1 and 20 inclusive: "))
     # Generating random number between 1 and 20 because of the question
-    number = random.randint(1, 20)
+    number = random.randint(1, 10)
     if guess == number:
         chance = chance + 1
         print("Correct Guess!! You gained one more chance.")
